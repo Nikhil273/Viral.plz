@@ -5,12 +5,16 @@ const Portfolio = () => {
     {
       id: 1,
       src: "https://res.cloudinary.com/nikhilmaurya/video/upload/v1752334434/1024X768_3_ro1bru.mp4",
-      views: "2.1M",
-      engagement: "95K",
-      title: "Viral Marketing Campaign",
+    },
+    {
+      id: 2,
+      src: "https://res.cloudinary.com/nikhilmaurya/video/upload/v1752339218/16_p80aoj.mp4",
+    },
+    {
+      id: 3,
+      src: "https://res.cloudinary.com/nikhilmaurya/video/upload/v1752339248/1024X768_15_mq8jth.mp4",
     },
   ];
-
   return (
     <section id="portfolio" className="py-20 bg-dark-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,7 +47,7 @@ const Portfolio = () => {
                 </div>
               </div>
 
-              <div className="p-6 bg-dark-card">
+              {/* <div className="p-6 bg-dark-card">
                 <h3 className="text-xl font-semibold text-dark-text mb-3">
                   {item.title}
                 </h3>
@@ -61,7 +65,7 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
