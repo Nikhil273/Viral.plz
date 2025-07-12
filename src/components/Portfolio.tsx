@@ -1,4 +1,3 @@
-import ReactPlayer from "react-player";
 import { Eye, Heart } from "lucide-react";
 
 const Portfolio = () => {
@@ -32,13 +31,13 @@ const Portfolio = () => {
             >
               <div className="aspect-[9/16] bg-dark-card relative overflow-hidden group rounded-md">
                 <div className="w-full h-full overflow-hidden">
-                  <ReactPlayer
+                  <video
                     src={item.src}
-                    playing={true}
-                    volume={0}
-                    width="100%"
-                    height="100%"
-                    loop={true}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-full object-cover"
                     style={{ borderRadius: "8px" }}
                   />
                 </div>
