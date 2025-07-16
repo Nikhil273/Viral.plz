@@ -1,5 +1,3 @@
-import { Eye, Heart } from "lucide-react";
-
 const Portfolio = () => {
   const portfolioItems = [
     {
@@ -46,26 +44,6 @@ const Portfolio = () => {
                   />
                 </div>
               </div>
-
-              {/* <div className="p-6 bg-dark-card">
-                <h3 className="text-xl font-semibold text-dark-text mb-3">
-                  {item.title}
-                </h3>
-                <div className="flex justify-between items-center">
-                  <div className="flex items-center space-x-2">
-                    <Eye className="h-5 w-5 text-dark-text-secondary" />
-                    <span className="text-dark-text-secondary">
-                      {item.views}
-                    </span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Heart className="h-5 w-5 text-dark-text-secondary" />
-                    <span className="text-dark-text-secondary">
-                      {item.engagement}
-                    </span>
-                  </div>
-                </div>
-              </div> */}
             </div>
           ))}
         </div>
